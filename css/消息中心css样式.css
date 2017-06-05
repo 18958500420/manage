@@ -1,0 +1,88 @@
+*{margin: 0 auto; padding: 0;}
+body{
+    background: url("../image/项目背景图1.jpg") no-repeat;
+    background-size: 100%;
+}
+.xx1{
+    width: 100%;
+    height: 100px;
+    background: white;
+    filter: opacity(30%);
+    position: relative;
+    top:100px;
+}
+.xx1{
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    color: blue;
+}
+.xx2{
+    width: 70%;
+    height: 450px;
+    background: white;
+    position: relative;
+    top: 130px;
+}
+.xx2-1{
+    width: 20%;
+    height: 450px;
+    background: #ccc;
+    float: left;
+}
+.xx2-1>ul{
+    list-style: none;
+}
+.xx2-1>ul>li{
+    width: 100%;
+    line-height: 35px;
+    text-indent: 40px;
+    font-size: 18px;
+    color: lightseagreen;
+}
+.xx2-1>ul>li:hover{
+    background:lightseagreen;
+    color: white;
+}
+.xx2-1>ul>li>div>a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    text-indent: 50px;
+    color: lightseagreen;
+}
+.xx2-1>ul>li>div>a:hover{
+    background: #f65352;
+    color: white;
+}
+.xx2-1>ul>li>div{
+    display: none;
+    width: 100%;
+    float: left;
+}
+.xx2-1>ul>li:hover>div{
+    display: block;
+}
+.xx3{
+    width: 200px;
+    height: 50px;
+    background: orangered;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    color: white;
+}
+.lj1{
+    text-decoration: none;
+}
+.tp1{
+    position: absolute;
+    top: 300px;
+}
+.tp2{
+    position: absolute;
+    top: 300px;
+    right: 0;
+}

@@ -1,0 +1,362 @@
+*{margin: 0 auto; padding: 0;}
+body{
+    background: url("../image/项目背景图1.jpg") no-repeat;
+    background-size: 100%;
+}
+.xxx{
+    width: 80px;
+    height: 30px;
+    background: #eee;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 40px;
+    position: absolute;
+    right: 15%;
+    top: 13%;
+}
+.xxx:hover{
+    background: darkcyan;
+}
+.xm1{
+    width: 100%;
+    height: 100px;
+    background: white;
+    filter: opacity(30%);
+    position: relative;
+    top:150px;
+}
+
+.xm2{
+    width: 70%;
+    height: 300px;
+    position: relative;
+    top: 240px;
+}
+.xm2-1{
+    width: 27%;
+    height: 145px;
+    background: #7aca0a;
+    /*filter: opacity(30%);*/
+    float: left;
+    margin: 0 2% 0 0;
+}
+.xm2-1:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-1:hover>img{
+    transform: rotateY(0deg);
+    animation-name: Me1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Me1{
+    0%{transform: rotateY(0deg);}
+    25%{transform: rotateY(90deg);}
+    50%{transform: rotateY(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+}
+.xm2-1>img{
+    width: 100px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.xm2-1>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+.xm2-2{
+    width: 20%;
+    height: 145px;
+    background: #f65352;
+    /*filter: opacity(30%);*/
+    float: left;
+    margin: 0 2% 0 0;
+}
+.xm2-2:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-2:hover>img{
+    transform: rotateY(0deg);
+    animation-name: Me2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Me2{
+    0%{transform: rotateY(0deg);}
+    25%{transform: rotateY(90deg);}
+    50%{transform: rotateY(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+}
+.xm2-2>img{
+    width: 100px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 65px;
+}
+.xm2-2>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 90px;
+    left: -45px;
+}
+.xm2-3{
+    width: 20%;
+    height: 145px;
+    background: #089eb1;
+    /*filter: opacity(30%);*/
+    float: left;
+    margin: 0 2% 0 0;
+}
+.xm2-3:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-3:hover>img{
+    transform: rotate(0deg);
+    animation-name: My;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes My{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+.xm2-3>img{
+    width: 70px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.xm2-3>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 90px;
+    left: -20px;
+}
+.xm2-4{
+    width: 27%;
+    height: 145px;
+    background: #318cef;
+    /*filter: opacity(30%);*/
+    float: left;
+}
+.xm2-4:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-4:hover>img{
+    transform: rotateY(0deg);
+    animation-name: Me3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Me3{
+    0%{transform: rotateY(0deg);}
+    25%{transform: rotateY(90deg);}
+    50%{transform: rotateY(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+}
+.xm2-4>img{
+    width: 100px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.xm2-4>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 55px;
+}
+.xm2-5{
+    width: 27%;
+    height: 145px;
+    background: #842dbe;
+    /*filter: opacity(30%);*/
+    float: left;
+    margin: 1% 2% 0 0;
+}
+.xm2-5:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-5:hover>img{
+    transform: rotateY(0deg);
+    animation-name: Me4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Me4{
+    0%{transform: rotateY(0deg);}
+    25%{transform: rotateY(90deg);}
+    50%{transform: rotateY(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+}
+.xm2-5>img{
+    width: 100px;
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+.xm2-5>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 55px;
+}
+.xm2-6{
+    width: 20%;
+    height: 145px;
+    background: #cb6ec1;
+    /*filter: opacity(30%);*/
+    float: left;
+    margin: 1% 2% 0 0;
+}
+.xm2-6:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-6:hover>img{
+    transform: rotateY(0deg);
+    animation-name: Me5;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Me5{
+    0%{transform: rotateY(0deg);}
+    25%{transform: rotateY(90deg);}
+    50%{transform: rotateY(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+}
+.xm2-6>img{
+    width: 70px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.xm2-6>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 90px;
+    left: -17px;
+}
+.xm2-7{
+    width: 27%;
+    height: 145px;
+    background: #e4b03b;
+    /*filter: opacity(30%);*/
+    float: left;
+    margin: 1% 2% 0 0;
+}
+.xm2-7:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-7:hover>img{
+    transform: rotateY(0deg);
+    animation-name: Me5;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Me5{
+    0%{transform: rotateY(0deg);}
+    25%{transform: rotateY(90deg);}
+    50%{transform: rotateY(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+}
+.xm2-7>img{
+    width: 100px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+.xm2-7>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 55px;
+}
+.xm2-8{
+    width: 20%;
+    height: 145px;
+    background: #319052;
+    /*filter: opacity(30%);*/
+    float: left;
+    margin: 1% 0 0 0;
+}
+.xm2-8:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.xm2-8>img{
+    width: 70px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.xm2-8>span{
+    font-size: 30px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 90px;
+    left: -17px;
+}
+.xm2-8:hover>img{
+    transform: rotate(0deg);
+    animation-name: My1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes My1{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
